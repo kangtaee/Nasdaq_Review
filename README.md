@@ -40,7 +40,7 @@ About MobileBert를 활용한 nasdaq 뉴스헤드라인 문장 감성분석
 | There's a disconnect setting up in the energy ... | Neutral |
 | Fintel reports that Hoak Public Equities, LP ... | Neutral |
 
-![전처리 예시](./스크린샷%202025-05-19%20103454.png)
+![전처리 예시](img/스크린샷 2025-05-19 103426.png)
 
 ---
 
