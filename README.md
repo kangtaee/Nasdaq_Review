@@ -1,7 +1,7 @@
-# 📈 NASDAQ 뉴스 기반 감성 분석 및 주가 반응 예측 프로젝트
+
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=NASDAQ_REVIEW&fontSize=60)
-
+# 📈 NASDAQ 뉴스 기반 감성 분석 및 주가 반응 예측 프로젝트
 <div align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/>
