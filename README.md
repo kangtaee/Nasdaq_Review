@@ -16,7 +16,7 @@
 
 - 목적: 투자자 입장에서 유의미한 뉴스 감성을 자동 분류하고, 이를 통해 단기 주가 예측 가능성 탐색
 - 방법: 감성 분류 모델 학습(MobileBERT), 성능 비교 및 시각화 분석
-- 데이터: 2023/01 NASDAQ 상장 종목 뉴스 + 종가/시가 기반 수익률 [데이터 출처](https://dacon.io/competitions/official/236145/data)
+- 데이터: 2023년 1월 NASDAQ 상장 종목 뉴스 + 종가/시가 기반 수익률 [데이터 출처](https://dacon.io/competitions/official/236145/data)
 
 ## 1-2. 분석 목표
 
