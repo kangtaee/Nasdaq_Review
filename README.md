@@ -1,7 +1,8 @@
 
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=NASDAQ_REVIEW&fontSize=60)
-## 📈 NASDAQ 뉴스 기반 감성 분석 및 주가 반응 예측 프로젝트
+![header](https://capsule-render.vercel.app/api?type=waving&color=16FF00&height=280&section=header&text=📈%20NASDAQ_REVIEW&fontSize=60&fontColor=000000&animation=twinkling)
+
+## NASDAQ 뉴스 기반 감성 분석 및 주가 반응 예측 프로젝트
 <div align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/>
@@ -228,10 +229,13 @@
 
 ## 7. 종합 결론
 
-* 직접 수작업 라벨링은 현실적 타당성이 높지만 정확도는 상대적으로 낮음 → 일반화 성능 반영
-* 키워드 기반 자동 라벨링은 높은 정확도를 보이나, 문맥 반영이 어려움
-* 수익률 예측에 직접 활용하려면 **라벨 품질 + 타이밍 고려** 중요
-* 감성 정보만으로 수익률 예측은 제한적이며, 반응 시차, 종목 특성, 뉴스 출처 등의 요소를 함께 고려해야 함
+본 프로젝트에서는 감성 라벨링 방식에 따라 감성 분류 모델의 정확도와 실제 주가 반응 분석 결과가 어떻게 달라지는지를 비교하고, 감성 정보의 실전 활용 가능성을 평가하였다. 그 결과, 직접 수작업으로 라벨링한 데이터는 문맥을 고려한 판단이 가능해 현실적 타당성은 높았지만, 모델 학습 결과에서는 자동 라벨링에 비해 정확도가 다소 낮게 나타났다. 이는 라벨 품질의 주관성과 감성 판단의 일관성 문제, 그리고 학습 데이터의 양적 제한 때문으로 해석된다. 반면, 키워드 기반 자동 라벨링은 대량 뉴스에 빠르게 적용할 수 있고, 높은 정확도를 보여주었지만, 실제 문장 내 맥락이나 반어법, 부정 표현 등을 반영하기에는 어려움이 있었다.
+
+이러한 결과는 정확도만으로 모델의 성능을 평가하는 것이 현실적인 투자 응용에는 충분하지 않다는 점을 시사한다. 특히 뉴스 감성이 실제 주가에 반영되는 방식은 단순히 뉴스가 긍정인지 부정인지를 넘어서, 뉴스가 발표된 시점과 시장 반응 간의 시간차, 종목 고유의 특성, 뉴스의 신뢰도(출처) 등 다양한 요소에 영향을 받기 때문이다.
+
+따라서 감성 정보만으로 수익률을 직접적으로 예측하는 것은 제한적인 효과를 가질 수 있으며, 실전 투자에 활용하기 위해서는 라벨링의 품질뿐 아니라 뉴스의 타이밍, 시장 상황, 종목 특성 등을 함께 고려한 종합적인 접근이 필요하다고 판단된다.
+
+
 
 ---
 
